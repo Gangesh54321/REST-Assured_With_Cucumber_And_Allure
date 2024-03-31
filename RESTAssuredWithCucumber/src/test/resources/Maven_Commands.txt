@@ -1,0 +1,11 @@
+To run the tests
+================
+
+mvn clean test
+mvn test -Dcucumber.filter.tags="@addPlace" - single tag
+mvn test -Dcucumber.filter.tags="@addPlace or @getPlace" - multiple tags
+
+
+To generate allure report
+========================
+allure serve target/allure-results

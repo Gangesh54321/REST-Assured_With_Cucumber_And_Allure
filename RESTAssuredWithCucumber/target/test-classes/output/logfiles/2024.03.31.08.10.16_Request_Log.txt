@@ -1,0 +1,73 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": 53.367676,
+        "lng": -154.78894
+    },
+    "accuracy": 50,
+    "name": "Sy Burnette",
+    "phone_number": "727-849-4808",
+    "address": "809 Lonnie Plain, West Sherleymouth, LA 60653-0399",
+    "types": [
+        "The Yellow Meads of Asphodel",
+        "Hera"
+    ],
+    "website": "prosacco.co",
+    "language": "Spanish"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f157460264dafca637ff1367735df7de
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f157460264dafca637ff1367735df7de
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	PUT
+Request URI:	https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f157460264dafca637ff1367735df7de",
+    "address": "Suite 375 255 Buck Trafficway, Cummeratatown, OH 16438-4096",
+    "key": "qaclick123"
+}
+Request method:	DELETE
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "f157460264dafca637ff1367735df7de"
+}

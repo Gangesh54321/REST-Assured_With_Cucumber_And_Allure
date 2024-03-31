@@ -1,0 +1,74 @@
+HTTP/1.1 200 OK
+Date: Sun, 31 Mar 2024 06:10:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f157460264dafca637ff1367735df7de",
+    "scope": "APP",
+    "reference": "16b4ec806d51f079b4d7f5b09b7f6ff916b4ec806d51f079b4d7f5b09b7f6ff9",
+    "id": "16b4ec806d51f079b4d7f5b09b7f6ff9"
+}
+HTTP/1.1 200 OK
+Date: Sun, 31 Mar 2024 06:10:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 281
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "53.367676",
+        "longitude": "-154.78894"
+    },
+    "accuracy": "50",
+    "name": "Sy Burnette",
+    "phone_number": "727-849-4808",
+    "address": "809 Lonnie Plain, West Sherleymouth, LA 60653-0399",
+    "types": "The Yellow Meads of Asphodel,Hera",
+    "website": "prosacco.co",
+    "language": "Spanish"
+}
+HTTP/1.1 200 OK
+Date: Sun, 31 Mar 2024 06:10:17 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 38
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "msg": "Address successfully updated"
+}
+HTTP/1.1 200 OK
+Date: Sun, 31 Mar 2024 06:10:19 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
